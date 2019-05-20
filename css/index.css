@@ -273,6 +273,8 @@ footer {
 .home .walk-img {
   width: 46%;
   margin-left: 4%;
+  border-radius: 10px;
+  border-color: #dee2e6;
 }
 @media (max-width: 500px) {
   .home .walk-img {
@@ -283,8 +285,6 @@ footer {
 .home .walk-img img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
-  border-color: #dee2e6;
 }
 .home .btn {
   margin: -50px 0 50px 60px;
