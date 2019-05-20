@@ -155,6 +155,7 @@ h3 {
 p {
   font-size: 1.6rem;
   line-height: 1.4;
+  color: #5E6164;
 }
 .container {
   max-width: 800px;
@@ -166,6 +167,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #454A59;
+  background: #F6F6F6;
 }
 .navigation h1 {
   padding: 10px;
@@ -175,13 +178,13 @@ p {
 }
 .navigation nav a {
   text-decoration: none;
-  color: black;
   font-size: 1.8rem;
   margin: 0 15px;
+  color: #454A59;
 }
 footer {
-  color: #22283B;
-  background: #f4f4f4;
+  color: #81848E;
+  background: #F6F6F6;
   padding: 20px 0;
   border: 1px double #e0e0e0;
   border-radius: 10px;
@@ -231,6 +234,14 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  width: 110px;
+  height: 40px;
+  background: #22283A;
+  color: white;
+  font-size: 1.8rem;
+  border-radius: 8px;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -239,4 +250,5 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+  border-color: #dee2e6;
 }
