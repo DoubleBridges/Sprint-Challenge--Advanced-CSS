@@ -1,1 +1,15 @@
-// Mixins Here
+.btn-style(@bg-color: @btn-bg-color; @text-color: white) {
+    width        : 110px;
+    height       : 40px;
+    background   : @bg-color;
+    color        : @text-color;
+    font-size    : 1.8rem;
+    border-radius: 8px;
+}
+
+.nav-tags(@size: 1.5rem; @color: @river-bend) {
+    text-decoration: none;
+    font-size      : @size;
+    margin         : 0 15px;
+    color          : @color;
+}
